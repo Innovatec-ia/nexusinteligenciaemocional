@@ -1,14 +1,79 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nexus Inteligencia Emocional - Conecta, Aprende, Transforma</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
-</html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus - Inteligencia Emocional</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav-logo">
+                <img src="img/logo.png" class="logo" alt="Logo de Nexus">
+                <h2 class="nav-title">Nexus</h2>
+            </div>
 
+            <ul class="nav-link nav-link-menu">
+                <li class="nav-items">
+                    <a href="#inicio" class="nav-links">Inicio</a>
+                </li>
+                <li class="nav-items">
+                    <a href="#acerca" class="nav-links">Acerca de</a>
+                </li>
+                <li class="nav-items">
+                    <a href="#contacto" class="nav-links">Contacto</a>
+                </li>
+                <img src="img/close.svg" class="nav-close" alt="Cerrar menú">
+            </ul>
+
+            <div class="nav-menu">
+                <img src="img/menu.svg" class="nav-img" alt="Abrir menú">
+            </div>
+        </nav>
+
+        <section id="inicio" class="hero-container container">
+            <h1 class="hero-title">Potencia tu Inteligencia Emocional</h1>
+            <p class="hero-paragraph">Descubre, comprende y gestiona tus emociones para alcanzar tu máximo potencial.</p>
+            <a href="#contacto" class="cta">Comienza ahora</a>
+        </section>
+    </header>
+
+    <main>
+        <section id="acerca" class="container about">
+            <h2 class="subtitle">¿Qué es Nexus?</h2>
+            <p class="about-paragraph">
+                Nexus es una plataforma dedicada al desarrollo de la inteligencia emocional. Creemos que entender y manejar nuestras emociones es fundamental para el bienestar personal y el éxito profesional. Nuestra misión es proporcionarte las herramientas y el conocimiento para que puedas conectar contigo mismo y con los demás de una manera más profunda y significativa.
+            </p>
+        </section>
+
+        <section id="contacto" class="contact">
+            <div class="container">
+                <h2 class="subtitle">Ponte en Contacto</h2>
+                <p class="contact-paragraph">¿Tienes alguna pregunta? Rellena el formulario y te responderemos lo antes posible.</p>
+                
+                <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                    <input type="text" name="name" placeholder="Tu Nombre" class="contact-input" required>
+                    <input type="email" name="email" placeholder="Tu Correo Electrónico" class="contact-input" required>
+                    <textarea name="message" placeholder="Tu Mensaje" class="contact-input" required></textarea>
+                    <input type="submit" value="Enviar Mensaje" class="contact-button">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Nexus. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/menu.js"></script>
+
+</body>
+</html>
