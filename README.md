@@ -12,10 +12,10 @@ Una página web moderna y profesional para Nexus Inteligencia Emocional, diseña
 
 ## 🎨 Paleta de Colores
 
-- **Primario**: Púrpura (#6b46c1)
-- **Secundario**: Violeta (#9333ea)
-- **Acento**: Lavanda (#c084fc)
-- **Gradientes**: Combinaciones armoniosas de púrpura y violeta
+- **Primario**: Blanco (#ffffff )
+- **Secundario**: Azul Marino (#112c46)
+- **Acento**: Amarillo (#f0a500)
+- **Gradientes**: Combinaciones armoniosas de azul y amarillo
 
 ## 🚀 Tecnologías Utilizadas
 
